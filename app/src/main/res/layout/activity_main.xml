@@ -14,8 +14,8 @@
             android:text="Texto editado a través de un stilo" />
 
         <Button
-            style="@style/EstiloBoton"
             android:id="@+id/button"
+            style="@style/EstiloBoton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Registrar" />
