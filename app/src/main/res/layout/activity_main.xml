@@ -12,6 +12,20 @@
         <TextView
             style="@style/MiPrimerEstilo"
             android:text="Texto editado a través de un stilo" />
+
+        <Button
+            style="@style/EstiloBoton"
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrar" />
+
+        <Button
+            style="@style/EstiloBoton"
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verificar" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
