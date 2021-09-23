@@ -11,10 +11,10 @@
         android:orientation="vertical">
         <TextView
             style="@style/MiPrimerEstilo"
-            android:text="Texto editado a través de un stilo" />
+            android:text="Texto editado a través de un estilo" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btn_registrar"
             style="@style/EstiloBoton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -22,10 +22,17 @@
 
         <Button
             style="@style/EstiloBoton"
-            android:id="@+id/button2"
+            android:id="@+id/btn_verificar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Verificar" />
+
+        <Button
+            android:id="@+id/btn_ayuda"
+            style="@style/EstiloBoton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ayuda" />
 
     </LinearLayout>
 
